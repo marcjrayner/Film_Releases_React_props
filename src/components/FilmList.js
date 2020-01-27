@@ -11,8 +11,14 @@ class FilmList extends Component {
     })
 
     return(
+      
       <div>
-        {filmNodes}
+        <h4>Films list</h4>
+        <ul>
+          {filmNodes}
+        </ul>
+        <hr/>
+        <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a>
       </div>
     )
   }
